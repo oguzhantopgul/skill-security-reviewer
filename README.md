@@ -19,7 +19,7 @@ For background on what skills are and why they matter, see the companion blog po
 Traditional static analysis tools match patterns — they look for `eval()` or `shell=True` and flag them. But they miss:
 
 - **Semantic manipulation** — Instructions that seem benign but have dangerous interpretations
-- **Context-dependent risks** — A network call in a "weather" skill is fine; in a "calculator" skill, it's suspicious
+- **Context-dependent risks** — A network call in a "weather" skill is fine; in a "JSON beautifier" skill, it's suspicious
 - **Novel attacks** — Anything that doesn't match a pre-written rule
 - **Intent analysis** — Understanding *why* code does something, not just *what* it does
 
@@ -94,11 +94,6 @@ See [examples/sample-review.md](examples/sample-review.md) for a complete securi
 
 For quick manual reviews, see the standalone checklist: [references/checklist.md](references/checklist.md)
 
-## Related Resources
-
-- [The Complete Guide to Agent Skills](#) — Understanding skills, security, and best practices
-- [Securing Agent Skills: A Practical Checklist](#) — The checklist that informed this skill
-
 ## Contributing
 
 Contributions welcome! Areas that would be particularly valuable:
@@ -110,7 +105,7 @@ Contributions welcome! Areas that would be particularly valuable:
 
 ## License
 
-MIT License — See [LICENSE](LICENSE) for details.
+Apache License — See [LICENSE](LICENSE) for details.
 
 ## Acknowledgments
 

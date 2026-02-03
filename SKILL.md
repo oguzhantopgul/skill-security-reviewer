@@ -94,7 +94,7 @@ Apply these mental models during analysis. See [references/threat-deep-dive.md](
 - Are secrets handled safely (env vars, not hardcoded, not logged)?
 - Is there access to files or data beyond what's needed for the stated purpose?
 
-**Intent analysis**: A "calculator" skill making HTTP requests is suspicious. A "weather" skill making HTTP requests is expected. Context matters.
+**Intent analysis**: A "JSON Beautifier" skill making HTTP requests is suspicious. A "weather" skill making HTTP requests is expected. Context matters.
 
 ### T4: Manifest-Behavior Mismatch
 

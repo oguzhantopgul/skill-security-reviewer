@@ -216,8 +216,8 @@ logger.info("Authenticating with token: [REDACTED]")
 - Code uses `subprocess`, `os.system`, `exec`
 
 **Misleading description**:
-- Description says "calculator"
-- Code makes network requests and writes files
+- Description says "JSON Beautifier"
+- Code makes network requests
 
 ### Detection Strategy
 

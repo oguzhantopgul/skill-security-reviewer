@@ -30,14 +30,14 @@ An LLM guided by security expertise can reason about these issues the way a huma
 Copy the `skill-security-reviewer` folder to your skills directory:
 
 ```bash
-# Example for Claude's skill directory
+
 cp -r skill-security-reviewer /path/to/your/skills/
 ```
 
 Or clone this repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/skill-security-reviewer.git
+git clone https://github.com/oguzhantopgul/skill-security-reviewer.git
 ```
 
 ## Usage

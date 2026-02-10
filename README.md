@@ -42,17 +42,21 @@ git clone https://github.com/oguzhantopgul/skill-security-reviewer.git
 
 ## Usage
 
-Once installed, ask your AI assistant to review a skill:
+Once installed, ask your AI assistant to review a skill by local path or remote URL:
 
 ```
 Review the skill at /path/to/some-skill for security issues
 ```
 
-Or:
-
 ```
 Perform a security audit of the pdf-editor skill
 ```
+
+```
+Review the skill at https://github.com/user/some-skill for security issues
+```
+
+When given a URL, the AI will clone the repository to a temporary directory, perform the review, and clean up afterward.
 
 The AI will:
 1. Gather all skill components (SKILL.md, scripts, references, assets)
@@ -66,7 +70,7 @@ The AI will:
 skill-security-reviewer/
 ├── SKILL.md                    # Core instructions and threat models
 ├── scripts/
-│   └── gather_skill.py         # Helper to collect skill files
+│   └── gather_skill.py         # Helper to collect skill files (supports local paths and URLs)
 ├── references/
 │   ├── threat-deep-dive.md     # Detailed patterns for each threat category
 │   ├── report-template.md      # Security report format
